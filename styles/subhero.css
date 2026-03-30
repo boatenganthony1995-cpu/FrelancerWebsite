@@ -1,0 +1,129 @@
+/* Styling the subhero section */
+.sub-hero-section{
+    background-color: #fff;
+    padding:5rem 0; 
+    width:100%
+}
+
+.sub-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+
+ .positive{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+     padding:0 1rem 0 0; 
+ } 
+
+ .project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0  1rem;
+   /* border-left: 0.123rem solid #d8d8d8; 
+           */
+} 
+ 
+ .year{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    padding: 0 0 0 1rem;
+   /* border-left: 0.123rem solid #d8d8d8;   */
+
+} 
+
+
+ .sub-hero-text{
+    color:#070707;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 100%;
+       
+}
+
+.sub-hero-text2{
+    font-weight:400;
+    font-size: 0.7rem; 
+    line-height: 100%;
+    color:#070707;
+    
+}
+
+.sub-hero-para{
+    font-size: 0.7rem; 
+    /* font-weight: 200; */
+    line-height: 100%;
+    opacity: 0.5;
+} 
+
+
+
+@media screen and (min-width:991px) {
+    .sub-hero-section{
+    background-color: #fff;
+    padding:7rem 0; 
+}
+    .sub-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;  
+}
+
+  .positive{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    padding:0 4rem 0 0;
+ } 
+
+ .project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0  4rem;
+    border-left: 0.123rem solid #d8d8d8; 
+          
+} 
+ 
+ .year{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    padding: 0 0 0 4rem;
+    border-left: 0.123rem solid #d8d8d8;  
+} 
+
+
+ .sub-hero-text{
+    color:#070707;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+       
+}
+
+.sub-hero-text2{
+    font-weight:700;
+    font-size: 1.125rem;
+    line-height: 100%;
+    color:#070707;
+    
+}
+
+.sub-hero para{
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 100%;
+    opacity: 0.5;
+} 
+
+}

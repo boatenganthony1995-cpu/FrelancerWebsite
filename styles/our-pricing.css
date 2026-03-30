@@ -1,0 +1,172 @@
+/* Styling of Our Pricing  */
+
+.our-pricing-container {
+    background-color: var(--primary-color); 
+    padding-top:7rem;
+    
+}
+
+.pricing {
+    padding-top:1rem;
+    text-align: center;
+}
+
+.pricing-text {
+    /* text-align: center; */
+    color:#ffffff; 
+    font-size:0.9rem;
+    font-weight: 500;
+    line-height: 100%;  
+}
+
+.pricing-paragraph {
+    /* text-align: center; */
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color:#fff;
+    /* margin-top: 1rem; */
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+   
+}
+ .pricing-container{
+    margin: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    width:18.75rem ;
+    height:28.125rem; 
+
+ }
+
+
+/* Styling the Text on the Card */
+.card-txt {
+    padding:3.25rem 0 1.313rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height:100% ;
+}
+
+.pricing-card-paragraph {
+    padding:1.25rem 0 0 1.5rem;
+    font-weight: 500;
+    font-size:3rem ;
+    line-height: 100%;
+    color:#000000;
+}
+
+.pricing-card-paragraph span {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.card-list {
+    padding: 1.5rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 100%;
+}
+.card-list li {
+    display: flex;
+    align-items: center;
+}
+.card-list li span {
+    background-color: #000;
+    border-radius: 50%;
+    color:#ffffff;
+    padding:0.1rem;
+    margin-right:0.5rem;
+    border:1.2px;
+}
+
+.card-btn {
+    width: 10.313rem;
+    height: 3.375rem;
+    border-radius: 3.125rem;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: transparent;
+}
+.card-btn:hover{
+    background-color: var(--hover-button);
+    color:#fff;
+    border:0;
+}
+
+#premium{
+    color:white;
+    background-color: #fc3867;
+    border:0;
+}
+#premium:hover{
+    background-color: var(--hover-button);
+}
+
+
+
+
+/* Styling for Responsive Design For Desktop*/
+
+@media screen and (min-width: 991px) {
+    
+
+     
+    .our-pricing-container{
+        padding-left: 9.5rem;
+        /* width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        padding-left: 6.6rem; */
+        
+
+    } 
+
+    .pricing {
+    padding-top:3rem;
+    text-align: center;
+    
+    }
+
+    .pricing-container{
+    margin: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    width:18.75rem ;
+    height:28.125rem; 
+
+ }
+
+    .pricing-text {
+    /* text-align: center; */
+    color:#ffffff; 
+    font-size:2.5rem;
+    font-weight: 500;
+    line-height: 100%;  
+}
+
+.pricing-paragraph {
+    /* text-align: center; */
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color:#fff;
+    margin-top: 1rem; 
+}
+    .pricing-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+   
+}
+   
+
+}

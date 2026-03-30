@@ -1,0 +1,64 @@
+/* Styling the Subscription Section */
+
+.subscrib-now {
+padding:11rem 0 0 0;
+background-color: var(--primary-color); 
+
+}
+
+.subscribe {
+    background-color: #fff;
+    padding:1rem;
+    text-align: center;
+   
+}
+
+
+.subscribe-text{
+    font-family: Cerebri Sans;
+    color:#c4c4c4;
+    font-weight:600;
+    font-size:1rem ;
+    line-height: 100%;
+}
+
+.subscribe-text2 {
+    color:#212226;
+    margin-top: 0.75rem;
+    font-weight:700;
+    font-size:2rem ;
+    line-height: 1.5rem;
+}
+
+.subscribe-btn {
+    justify-content: space-between;
+    color:white;
+    background-color: #ce1943;
+    padding:1rem 2rem;
+    border-radius: 5.438rem;
+    display: block;
+    margin: 2rem auto;
+    border:0;
+
+}
+
+
+
+@media screen and  (max-width: 600px){
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-items: center;
+        width: 100%; 
+    }
+
+    .subscribe-text2 {
+    /* text-align: center;
+    color:#212226; */
+    /* margin-top: 0.75rem; */
+    font-weight:700;
+    font-size:2.5rem ;
+    line-height: 4rem;
+}
+}
