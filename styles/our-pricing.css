@@ -2,12 +2,13 @@
 
 .our-pricing-container {
     background-color: var(--primary-color); 
-    padding-top:7rem;
+    /* padding-top:7rem; */
+    padding: 5rem 1.5rem
     
 }
 
 .pricing {
-    padding-top:1rem;
+    /* padding-top:1rem; */
     text-align: center;
 }
 
@@ -16,7 +17,7 @@
     color:#ffffff; 
     font-size:0.9rem;
     font-weight: 500;
-    line-height: 100%;  
+    line-height: 1.3;  
 }
 
 .pricing-paragraph {
@@ -35,52 +36,57 @@
    
 }
  .pricing-container{
-    margin: 2.5rem;
+    margin: 2rem 0;
     background-color: #ffffff;
     border-radius: 0.75rem;
     width:18.75rem ;
-    height:28.125rem; 
+    /* height:28.125rem;   */
+    min-height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.1rem;
 
  }
 
 
 /* Styling the Text on the Card */
 .card-txt {
-    padding:3.25rem 0 1.313rem 1.5rem;
+    padding:2rem 0 1.5rem 1rem;
     font-weight: 700;
     font-size: 1.25rem;
-    line-height:100% ;
+    line-height:1.3 ;
 }
 
 .pricing-card-paragraph {
-    padding:1.25rem 0 0 1.5rem;
-    font-weight: 500;
-    font-size:3rem ;
-    line-height: 100%;
+    padding:0 1.3rem;
+    font-weight: 600;
+    font-size:2.5rem ;
+    line-height: 1.1;
     color:#000000;
 }
 
 .pricing-card-paragraph span {
     font-weight: 400;
     font-size: 1rem;
-    line-height: 100%;
 }
 
 .card-list {
     padding: 1.5rem;
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 100%;
+    line-height: 1.3;
 }
 .card-list li {
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 .card-list li span {
     background-color: #000;
     border-radius: 50%;
     color:#ffffff;
-    padding:0.1rem;
+    padding:0.1rem 0.2rem;
     margin-right:0.5rem;
     border:1.2px;
 }
@@ -89,10 +95,11 @@
     width: 10.313rem;
     height: 3.375rem;
     border-radius: 3.125rem;
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     border: 1px solid #000;
     background-color: transparent;
+    transition:all 0.3s ease;
 }
 .card-btn:hover{
     background-color: var(--hover-button);
@@ -116,10 +123,10 @@
 
 @media screen and (min-width: 991px) {
     
-
-     
     .our-pricing-container{
-        padding-left: 9.5rem;
+        padding: 9.5rem;
+        max-width: 1600px;
+        margin: 0 auto;
         /* width: 100%;
         display: flex;
         flex-direction: row;
@@ -129,18 +136,15 @@
 
     } 
 
-    .pricing {
+    /* .pricing {
     padding-top:3rem;
     text-align: center;
     
-    }
+    } */
 
     .pricing-container{
-    margin: 2.5rem;
-    background-color: #ffffff;
-    border-radius: 0.75rem;
-    width:18.75rem ;
-    height:28.125rem; 
+    width:20rem ;
+    min-height:30rem; 
 
  }
 
@@ -155,16 +159,14 @@
 .pricing-paragraph {
     /* text-align: center; */
     font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-weight: 500;
-    color:#fff;
+    /* line-height: 1.5rem; */
+    /* font-weight: 500; */
     margin-top: 1rem; 
 }
     .pricing-card {
-    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    gap:2rem;
    
 }
    
