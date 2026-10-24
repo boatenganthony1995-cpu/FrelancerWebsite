@@ -8,38 +8,39 @@
 .sub-hero {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}  
+    justify-content:center;
+    align-items: space-between; 
+    gap: 4rem; 
+    
 
- .positive{
+}  
+    .positive{
     display: flex;
     flex-direction: column; 
     text-align: center;
     align-items: center;
-     padding:0 1rem 0 0; 
+    padding:0 4rem 0 0;
  } 
 
- .project{
+    .project{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0  1rem;
-   /* border-left: 0.123rem solid #d8d8d8; 
-           */
-} 
+    padding: 0  4rem;
+    border-left: 0.123rem solid #d8d8d8; 
+   
+ } 
  
  .year{
     display: flex;
     flex-direction: column; 
     text-align: center;
-    padding: 0 0 0 1rem;
-   /* border-left: 0.123rem solid #d8d8d8;   */
+    padding: 0 0 0 4rem;
+    border-left: 0.123rem solid #d8d8d8; 
 
 } 
 
-
+/*
  .sub-hero-text{
     color:#070707;
     font-size: 2rem;
@@ -58,10 +59,10 @@
 
 .sub-hero-para{
     font-size: 0.7rem; 
-    /* font-weight: 200; */
+    /* font-weight: 200; 
     line-height: 100%;
     opacity: 0.5;
-} 
+}  */
 
 
 
@@ -70,38 +71,6 @@
     background-color: #fff;
     padding:7rem 0; 
 }
-    .sub-hero {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;  
-}
-
-  .positive{
-    display: flex;
-    flex-direction: column; 
-    text-align: center;
-    align-items: center;
-    padding:0 4rem 0 0;
- } 
-
- .project{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 0  4rem;
-    border-left: 0.123rem solid #d8d8d8; 
-          
-} 
- 
- .year{
-    display: flex;
-    flex-direction: column; 
-    text-align: center;
-    padding: 0 0 0 4rem;
-    border-left: 0.123rem solid #d8d8d8;  
-} 
-
 
  .sub-hero-text{
     color:#070707;
@@ -126,4 +95,18 @@
     opacity: 0.5;
 } 
 
+}
+
+/* @media screen and (max-width: 576px) {
+    .sub-hero-section{
+    display:none;
+}
+    
+} */
+
+@media screen and (max-width: 799px) {
+    .sub-hero-section{
+    display:none;
+}
+    
 }

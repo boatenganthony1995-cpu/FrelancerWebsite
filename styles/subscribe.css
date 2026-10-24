@@ -1,7 +1,7 @@
 /* Styling the Subscription Section */
 
 .subscrib-now {
-padding:11rem 0 0 0;
+padding:10rem 0 0 0;
 background-color: var(--primary-color); 
 
 }
@@ -10,24 +10,29 @@ background-color: var(--primary-color);
     background-color: #fff;
     padding:1rem;
     text-align: center;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+    width: 100%;
    
 }
 
 
 .subscribe-text{
     font-family: Cerebri Sans;
-    color:#c4c4c4;
-    font-weight:600;
+    color:#727272;
+    font-weight:700;
     font-size:1rem ;
-    line-height: 100%;
+    line-height: 1.6;
 }
 
 .subscribe-text2 {
     color:#212226;
     margin-top: 0.75rem;
     font-weight:700;
-    font-size:2rem ;
-    line-height: 1.5rem;
+    font-size:1.2rem ;
+    line-height: 1.5;
 }
 
 .subscribe-btn {
@@ -44,21 +49,19 @@ background-color: var(--primary-color);
 
 
 
-@media screen and  (max-width: 600px){
-    .subscribe{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        place-items: center;
-        width: 100%; 
-    }
+@media screen and  (min-width: 997px){
+   
+    .subscribe-text{
+    font-size:2rem ;
+    line-height: 1.6;
+}
 
     .subscribe-text2 {
     /* text-align: center;
     color:#212226; */
     /* margin-top: 0.75rem; */
     font-weight:700;
-    font-size:2.5rem ;
+    font-size:2rem ;
     line-height: 4rem;
 }
 }
