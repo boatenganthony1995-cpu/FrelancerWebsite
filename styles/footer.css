@@ -3,7 +3,7 @@
 .footer-container {
      /* width: 100%; */
     background-color: #070707;
-    padding: 3rem 1.5rem;
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
 
@@ -12,7 +12,7 @@
   .footer-card{
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 2rem;
+    /* gap: 2rem; */
 }  
 
 /* .footer-card2{
@@ -44,8 +44,9 @@
     line-height: 1.4;
     color:#fff;
     /* margin-bottom: 1rem; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
+    margin-bottom: 2rem;
     
 }
 
@@ -56,7 +57,7 @@
     line-height: 1;
     color:#c4c4c4; 
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 } 
 .footer-txt-bottom{
     text-align: center;
@@ -65,7 +66,7 @@
     font-size:0.875rem ;
     /* line-height: 100%; */
     margin-top: 2rem;
-    margin-bottom:4rem;
+    margin-bottom:1rem;
     opacity:0.6;
 }
 

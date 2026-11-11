@@ -1,7 +1,11 @@
 /* Styling the Subscription Section */
 
+
+@import url('https://cdn.jsdelivr.net/npm/cerebri-sans@1.0.0/cerebri-sans.min.css');
+
+
 .subscrib-now {
-padding:10rem 0 0 0;
+padding:4rem 0 0 0;
 background-color: var(--primary-color); 
 
 }
@@ -20,7 +24,7 @@ background-color: var(--primary-color);
 
 
 .subscribe-text{
-    font-family: Cerebri Sans;
+    font-family:'Cerebri Sans', sans-serif;
     color:#727272;
     font-weight:700;
     font-size:1rem ;

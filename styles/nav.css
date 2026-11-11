@@ -50,7 +50,7 @@
 }
 
 .nav-links a:hover{
-  background-color:#5c3c70;
+  background-color:#500606;
   color:#fff;
 }
 
@@ -103,16 +103,16 @@
 
       
       .nav-links a{
-        color: #646464 !important;
+        color: #c4c4c4; !important;
         margin-bottom: 40px;
         margin-top: 0;
         font-weight: 700;
       }
 
       .nav-links a:hover{
-  background-color:#5c3c70;
-  color:#fff;
-}
+        background-color:#500606;
+        color:#fff;
+      }
 
       #nav-home{
         color:#c4c4c4 !important;

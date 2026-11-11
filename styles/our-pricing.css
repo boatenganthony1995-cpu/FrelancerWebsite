@@ -2,8 +2,7 @@
 
 .our-pricing-container {
     background-color: var(--primary-color); 
-    /* padding-top:7rem; */
-    padding: 5rem 1.5rem
+     padding-top:7rem; 
     
 }
 
@@ -12,17 +11,17 @@
     text-align: center;
 }
 
-.pricing-text {
+.pricing-text{
     /* text-align: center; */
     color:#ffffff; 
-    font-size:0.9rem;
+    font-size:1.2rem;
     font-weight: 500;
     line-height: 1.3;  
 }
 
 .pricing-paragraph {
     /* text-align: center; */
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: 500;
     color:#fff;
@@ -148,20 +147,18 @@
 
  }
 
-    .pricing-text {
-    /* text-align: center; */
-    color:#ffffff; 
-    font-size:2.5rem;
+    .pricing-text{
+    font-size:1.7rem;
     font-weight: 500;
     line-height: 100%;  
 }
 
 .pricing-paragraph {
     /* text-align: center; */
-    font-size: 1.5rem;
+    font-size: 3rem;
     /* line-height: 1.5rem; */
     /* font-weight: 500; */
-    margin-top: 1rem; 
+    margin: 1.5rem; 
 }
     .pricing-card {
     flex-direction: row;
