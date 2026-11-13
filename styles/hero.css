@@ -1,0 +1,97 @@
+/* Styling the Hero Section */
+
+.hero-section{
+    background-color: var(--primary-color); 
+    padding:2rem 1rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+.image-container img{
+    width:100%;
+    object-fit: cover;
+    
+
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem; 
+    padding:2rem;
+  
+}
+.hero-text{
+    color:#c4c4c4;
+}
+
+.hero-text h1{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.hero-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-bottom: 2.5rem;
+}
+
+.hero-btn {
+    padding:1rem 2rem;
+    border-radius: 5.438rem;
+    background-color: #fc3867;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    border:none;
+    color:#ffffff;
+    transition:background-color 0.4s ease;
+}
+
+button:hover{
+    background-color: var(--hover-button);
+}
+
+ 
+ @media screen and (min-width: 991px) {
+    
+    
+.image-container{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap:3rem; 
+    padding:2rem 0;
+  
+}
+
+.hero-section{
+    padding: 2.5rem 7.5rem;
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.hero-section {
+    padding: 4rem 7.5rem;
+}
+
+.image-container img{
+    max-width: 50%;
+    align-self: center;
+ }
+ .hero-text {
+   flex: 1;
+ }
+
+}

@@ -1,0 +1,146 @@
+
+.nav-container{
+  padding:2rem;
+  display: flex;
+  background-color:var(--primary-color)!important;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  top:0;
+  width:100%;
+  left: 0;
+  /* height: 70px; */
+  z-index:1000;
+
+}
+
+.nav-container h1{
+  color:#c4c4c4;
+  font-size:1.5rem ;
+  font-weight: 700;
+  line-height: 100%;
+  padding-left: 1rem;
+
+}
+
+#humberger{
+  font-size: 1.5rem;
+  cursor: pointer;
+  color:#c4c4c4;
+
+}
+
+#close {
+  font-size: 1.5rem;
+  cursor: pointer;
+   color:#c4c4c4;
+}
+
+.nav-links{
+  margin-right: 50px;
+}
+.nav-links a{
+    font-size: 1rem;
+    line-height: 100%;
+    font-weight: 500;
+    color:#646464;
+    padding:0 1.5rem;
+    /* padding: 1rem 0;  */
+    cursor: pointer;
+}
+
+.nav-links a:hover{
+  background-color:#500606;
+  color:#fff;
+}
+
+#nav-home{
+  color:#c4c4c4;
+}
+
+.nav-btn{
+  border-radius: 5.438rem;
+  padding:1rem 2rem;
+  border:2px solid #c4c4c4;
+  color:#ffffff;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 500;
+  background-color:var(--primary-color);
+}
+
+
+
+
+
+@media(min-width:768px) {
+      #humberger{
+        display: none;
+      }
+
+      #close{
+        display: none;
+      }
+}
+
+
+@media(max-width:768px) {
+      .nav-links{
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items:center ;
+        height: 100vh!important;
+        position:fixed;
+        bottom: 0;
+        left:-100%;
+        z-index: 999;
+        transition:left 0.3s ease;
+
+      }
+
+      
+      .nav-links a{
+        color: #c4c4c4; !important;
+        margin-bottom: 40px;
+        margin-top: 0;
+        font-weight: 700;
+      }
+
+      .nav-links a:hover{
+        background-color:#500606;
+        color:#fff;
+      }
+
+      #nav-home{
+        color:#c4c4c4 !important;
+      }
+
+      #close{
+        position:absolute;
+        top:45px;
+        right: 40px;
+        font-size: 3rem;
+      }
+
+      #humberger{
+        font-size: 2.5rem;
+        padding-right: 0.7rem;
+      }
+
+      .nav-container h1{
+        margin-left: 3px;
+      }
+
+
+        .active{
+        left: 0!important;
+      }
+
+}
+
+
+
+
