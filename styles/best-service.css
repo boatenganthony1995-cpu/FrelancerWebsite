@@ -1,6 +1,7 @@
 /* Best Services Section */
 
 .best-section{
+    padding:4rem;
     background-color: var(--primary-color); 
 }
 
@@ -90,6 +91,11 @@
 
 
 @media screen and (min-width: 991px) {
+
+
+    .best-section{
+    padding:7rem;
+}
     
     .best-container2{
         flex-direction: row;

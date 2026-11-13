@@ -73,6 +73,7 @@
 }
 
  .sub-hero-text{
+    
     color:#070707;
     font-size: 4rem;
     font-weight: 700;
@@ -81,6 +82,8 @@
 }
 
 .sub-hero-text2{
+    margin-top: 1rem;
+    font-family: 'Dm-serif';
     font-weight:700;
     font-size: 1.125rem;
     line-height: 100%;
@@ -88,11 +91,14 @@
     
 }
 
-.sub-hero para{
+.sub-hero-para{
+    margin-top: 0.4rem;
+    font-family: 'Dm-serif';
     font-size: 1rem;
     font-weight: 200;
     line-height: 100%;
     opacity: 0.5;
+    color:#c4c4c4;
 } 
 
 }

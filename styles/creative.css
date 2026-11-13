@@ -1,8 +1,7 @@
 /* Styling Creative Work Section */
 
 .creative-work {
-    /* padding-top:4rem; */
-    padding: 0 1.5rem;
+    padding: 10rem 2rem 6rem 2rem;
     background-color: var(--primary-color) !important; 
 }
 
@@ -27,10 +26,11 @@
 }
 
 .creative img{
-    width: 100%;
+    width: 100%; 
+    margin-top: 1.5rem;
+    /* padding:3rem; */
     display:block;
     object-position: center;
-    margin-top: 1rem;
 
 
     /* padding-left: 1.5rem; */
@@ -39,7 +39,7 @@
 @media screen and (min-width: 991px) {
     
     .creative-work{
-        padding:0 6.5rem;
+        padding:10rem;
     }
 
     .creative-text{
@@ -65,13 +65,15 @@
 .creative {
     display:grid;
     grid-template-columns: auto auto;
-    gap:2rem;
-    padding:1rem 2.5rem ;
+  
     
     }
 
 .creative img{
-    width: 36.75rem;
+    /* width: 100%; */
+      /* padding:1rem 0.3rem; */
+    padding: 0.6rem 1rem;
+    display:block;
 }
 
 }

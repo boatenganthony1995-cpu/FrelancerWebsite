@@ -2,7 +2,8 @@
 
 .our-pricing-container {
     background-color: var(--primary-color); 
-     padding-top:7rem; 
+     padding-top:6rem; 
+     padding-bottom:7rem;
     
 }
 
@@ -148,14 +149,14 @@
  }
 
     .pricing-text{
-    font-size:1.7rem;
+    font-size:1rem;
     font-weight: 500;
     line-height: 100%;  
 }
 
 .pricing-paragraph {
     /* text-align: center; */
-    font-size: 3rem;
+    font-size: 2.5rem;
     /* line-height: 1.5rem; */
     /* font-weight: 500; */
     margin: 1.5rem; 
