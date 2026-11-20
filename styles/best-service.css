@@ -1,7 +1,7 @@
 /* Best Services Section */
 
 .best-section{
-    padding:4rem;
+    padding:0 0 3rem 1rem; 
     background-color: var(--primary-color); 
 }
 
