@@ -1,0 +1,71 @@
+/* Styling the Subscription Section */
+
+
+@import url('https://cdn.jsdelivr.net/npm/cerebri-sans@1.0.0/cerebri-sans.min.css');
+
+
+.subscrib-now {
+padding:4rem 0 0 0;
+background-color: var(--primary-color); 
+
+}
+
+.subscribe {
+    background-color: #fff;
+    padding:1rem;
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+    width: 100%;
+   
+}
+
+
+.subscribe-text{
+    font-family:'Cerebri Sans', sans-serif;
+    color:#727272;
+    font-weight:700;
+    font-size:1rem ;
+    line-height: 1.6;
+}
+
+.subscribe-text2 {
+    color:#212226;
+    margin-top: 0.75rem;
+    font-weight:700;
+    font-size:1.2rem ;
+    line-height: 1.5;
+}
+
+.subscribe-btn {
+    justify-content: space-between;
+    color:white;
+    background-color: #ce1943;
+    padding:1rem 2rem;
+    border-radius: 5.438rem;
+    display: block;
+    margin: 2rem auto;
+    border:0;
+
+}
+
+
+
+@media screen and  (min-width: 997px){
+   
+    .subscribe-text{
+    font-size:2rem ;
+    line-height: 1.6;
+}
+
+    .subscribe-text2 {
+    /* text-align: center;
+    color:#212226; */
+    /* margin-top: 0.75rem; */
+    font-weight:700;
+    font-size:2rem ;
+    line-height: 4rem;
+}
+}
